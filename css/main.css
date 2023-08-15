@@ -1,0 +1,89 @@
+main .first{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 40px;
+    gap: 35px 0;
+}
+main .first div:nth-of-type(1) img{
+    width: 500px;
+    height: 300px;
+    box-shadow: 3px 3px 25px ;
+}
+main .first div:nth-of-type(1){
+    display: flex;
+    gap: 0 29px;
+}
+main .first div:nth-of-type(2){
+    display: flex;
+    gap: 0 500px;
+}
+main .secend{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: black;
+}
+main .secend div:nth-of-type(1) img{
+    width: 800px;
+}
+main .secend div:nth-of-type(1){
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .secend div:nth-of-type(2){
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px 0;
+    padding-left: 100px;
+}
+main .secend div:nth-of-type(2) h1{
+    color: crimson;
+    font-size: 35px;
+}
+main .secend div:nth-of-type(2) h3{
+    color: white;
+    font-size: 28px;
+}
+main .third {
+    width: 100%;
+    height: 600px;
+    background-color: rgb(171, 187, 24);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+main .third div:nth-of-type(1) img{
+    width: 400px;
+}
+main .third div:nth-of-type(1){
+    width: 30%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 20px;
+}
+main .third div:nth-of-type(2){
+    width: 70%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding-right: 300px;
+    gap: 80px 0;
+}
+main .third div:nth-of-type(2) p{
+    color: white;
+    font-size: 20px;
+}
